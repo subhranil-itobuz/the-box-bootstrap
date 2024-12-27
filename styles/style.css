@@ -1,0 +1,490 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", "Segoe UI";
+}
+
+body {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.navbar-section {
+  background-color: #d4d8ff;
+}
+@media (min-width: 1440px) {
+  .navbar-section {
+    padding: 16px 112px;
+  }
+}
+.navbar-section .navbar-logo {
+  width: 135px !important;
+}
+@media (min-width: 1200px) {
+  .navbar-section .navbar-logo {
+    width: 173px;
+  }
+}
+.navbar-section .hamburger-button {
+  border: none;
+}
+.navbar-section .hamburger-button:focus {
+  box-shadow: none;
+}
+.navbar-section .navbar-list-item:hover {
+  cursor: pointer;
+  color: #F9995D;
+  transition: all 0.15s ease-in-out 0.15s;
+}
+@media (min-width: 992px) {
+  .navbar-section .navbar-list-item {
+    font-size: 18px;
+  }
+}
+
+.hero-section .hero-heading {
+  color: #292E3D;
+  font-weight: 600;
+  font-size: 32px;
+  width: 277px;
+}
+@media (min-width: 768px) {
+  .hero-section .hero-heading {
+    font-size: 48px;
+    width: 420px;
+  }
+}
+@media (min-width: 992px) {
+  .hero-section .hero-heading {
+    font-size: 50px;
+    left: 300px !important;
+  }
+}
+@media (min-width: 1200px) {
+  .hero-section .hero-heading {
+    font-size: 66px;
+    width: 500px;
+    left: 309px !important;
+  }
+}
+@media (min-width: 1440px) {
+  .hero-section .hero-heading {
+    font-size: 72px;
+    width: 556px;
+    left: 412px !important;
+  }
+}
+.hero-section .hero-feature-container {
+  background-color: #3559C7;
+  width: 300px;
+}
+@media (min-width: 768px) {
+  .hero-section .hero-feature-container {
+    width: 400px;
+  }
+}
+@media (min-width: 992px) {
+  .hero-section .hero-feature-container {
+    transform: translateX(66px) !important;
+    bottom: 0 !important;
+  }
+}
+@media (min-width: 1200px) {
+  .hero-section .hero-feature-container {
+    transform: translateX(155px) !important;
+  }
+}
+@media (min-width: 1440px) {
+  .hero-section .hero-feature-container {
+    width: 416px;
+    transform: translateX(188px) !important;
+    gap: 0 !important;
+    padding-top: 0 !important;
+  }
+}
+@media (min-width: 768px) {
+  .hero-section .hero-feature-container .feature-container-heading {
+    font-size: 20px !important;
+  }
+}
+@media (min-width: 1440px) {
+  .hero-section .hero-feature-container .feature-container-heading {
+    padding: 23px 0 !important;
+  }
+}
+@media (min-width: 768px) {
+  .hero-section .hero-feature-container .feature-container-content {
+    font-size: 24px !important;
+  }
+}
+@media (min-width: 1200px) {
+  .hero-section .hero-feature-container .feature-container-content {
+    padding: 0 48px !important;
+  }
+}
+@media (min-width: 1440px) {
+  .hero-section .hero-feature-container .feature-container-content {
+    padding: 0 52px 26px !important;
+  }
+}
+@media (min-width: 1440px) {
+  .hero-section .hero-feature-container .feature-button {
+    padding: 9.5px 64.5px;
+    font-size: 18px;
+    gap: 10px !important;
+  }
+}
+
+.reputation-section {
+  margin-top: 230px;
+}
+@media (min-width: 768px) {
+  .reputation-section {
+    margin-top: 270px;
+  }
+}
+@media (min-width: 992px) {
+  .reputation-section {
+    margin-top: 0;
+    padding-top: 60px;
+  }
+}
+.reputation-section .reputation-heading {
+  color: #292E3D;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.2509803922);
+}
+@media (min-width: 1400px) {
+  .reputation-section .reputation-heading {
+    font-size: 36px !important;
+  }
+}
+@media (min-width: 1440px) {
+  .reputation-section .reputation-container {
+    gap: 68px !important;
+  }
+}
+.reputation-section .reputation-container .reputation-container-card {
+  width: 291px;
+  padding: 9px 0 0;
+}
+.reputation-section .reputation-container .reputation-container-card:hover {
+  cursor: pointer;
+  scale: 1.05;
+  border: solid #3559C7;
+  transition: all 0.15s ease-in-out 0.15s;
+}
+.reputation-section .reputation-container .reputation-container-card .container-card-title {
+  color: #292E3D;
+}
+.reputation-section .reputation-container .reputation-container-card .container-card-content {
+  color: #858EAD;
+}
+
+@media (min-width: 992px) {
+  .about-section {
+    position: relative;
+  }
+}
+.about-section .about-section-image {
+  width: 289px;
+}
+@media (min-width: 768px) {
+  .about-section .about-section-image {
+    width: 380px;
+  }
+}
+@media (min-width: 992px) {
+  .about-section .about-section-image {
+    width: 555px;
+    position: absolute;
+    left: 90px;
+  }
+}
+@media (min-width: 1200px) {
+  .about-section .about-section-image {
+    width: 650px;
+    left: 115px;
+  }
+}
+@media (min-width: 1440px) {
+  .about-section .about-section-image {
+    width: 902px;
+  }
+}
+.about-section .about-section-card {
+  width: 289px;
+  background-color: #2947A9;
+}
+@media (min-width: 768px) {
+  .about-section .about-section-card {
+    width: 327px;
+  }
+}
+@media (min-width: 992px) {
+  .about-section .about-section-card {
+    width: 380px;
+    position: absolute;
+    top: 24px;
+    right: 96px;
+  }
+}
+@media (min-width: 1200px) {
+  .about-section .about-section-card {
+    width: 430px;
+    padding: 35px 48px;
+    top: 39px;
+    right: 135px;
+  }
+}
+@media (min-width: 1440px) {
+  .about-section .about-section-card {
+    width: 488px;
+    padding: 50px 77px 60px 40px !important;
+    gap: 55px !important;
+    right: 112px;
+  }
+}
+@media (min-width: 1200px) {
+  .about-section .about-section-card .about-card-title {
+    font-size: 30px !important;
+  }
+}
+@media (min-width: 1440px) {
+  .about-section .about-section-card .about-card-title {
+    font-size: 36px !important;
+    margin: 0 !important;
+    padding-bottom: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .about-section .about-section-card .about-card-content {
+    font-size: 18px !important;
+  }
+}
+@media (min-width: 1440px) {
+  .about-section .about-section-card .about-card-content {
+    font-size: 20px !important;
+    margin: 0 !important;
+    margin-bottom: 16px !important;
+  }
+}
+.about-section .about-section-card .about-card-button {
+  width: 200px;
+  color: #3559C7;
+}
+@media (min-width: 1200px) {
+  .about-section .about-section-card .about-card-button {
+    font-size: 16px !important;
+  }
+}
+@media (min-width: 1440px) {
+  .about-section .about-section-card .about-card-button {
+    width: 221px;
+    font-size: 18px !important;
+    padding: 16px 20px;
+  }
+}
+
+.services-section {
+  background-color: #F6F8F7;
+}
+@media (min-width: 992px) {
+  .services-section {
+    margin-top: 488px !important;
+  }
+}
+@media (min-width: 1200px) {
+  .services-section {
+    margin-top: 570px !important;
+  }
+}
+@media (min-width: 1440px) {
+  .services-section {
+    margin-top: 800px !important;
+    padding-bottom: 76px !important;
+  }
+}
+.services-section .services-section-header {
+  color: #292E3D;
+}
+@media (min-width: 1440px) {
+  .services-section .services-section-header {
+    font-size: 36px !important;
+    padding: 44px 0 36px !important;
+  }
+}
+@media (min-width: 768px) {
+  .services-section .services-section-container .service-container-wrapper {
+    margin: auto;
+    width: 648px;
+  }
+}
+@media (min-width: 992px) {
+  .services-section .services-section-container .service-container-wrapper {
+    width: 800px;
+  }
+}
+@media (min-width: 1440px) {
+  .services-section .services-section-container .service-container-wrapper {
+    width: 1020px;
+    gap: 48px 98px !important;
+  }
+}
+.services-section .services-section-container .service-container-wrapper .services-card {
+  width: 200px;
+  color: #2947A9;
+  padding: 18px;
+  border-radius: 4px;
+}
+.services-section .services-section-container .service-container-wrapper .services-card:hover {
+  cursor: pointer;
+  scale: 1.05;
+  transition: all 0.15s ease-in-out 0.15s;
+}
+@media (min-width: 992px) {
+  .services-section .services-section-container .service-container-wrapper .services-card {
+    width: 230px;
+    padding: 24px;
+  }
+}
+@media (min-width: 1440px) {
+  .services-section .services-section-container .service-container-wrapper .services-card {
+    width: 271px;
+    padding: 38px 58.5px;
+  }
+}
+.services-section .services-section-container .service-container-wrapper .services-card .services-card-icon {
+  width: 40px;
+}
+.services-section .services-section-container .service-container-wrapper .services-card .services-card-line {
+  width: 40px;
+}
+@media (min-width: 1440px) {
+  .services-section .services-section-container .service-container-wrapper .services-card .services-card-line {
+    width: 60px;
+  }
+}
+.services-section .services-section-container .service-container-wrapper .services-card .services-card-title {
+  font-size: 16px;
+}
+@media (min-width: 1440px) {
+  .services-section .services-section-container .service-container-wrapper .services-card .services-card-title {
+    font-size: 20px;
+  }
+}
+.services-section .services-section-container .service-container-wrapper .services-card-blue {
+  background-color: #2947A9;
+  color: white;
+}
+
+@media (min-width: 992px) {
+  .experience-section .experience-section-container {
+    width: 60%;
+    padding-top: 100px;
+  }
+}
+.experience-section .experience-section-container .experience-container-card {
+  background-color: #fff;
+  box-shadow: 0px 4px 6px -2px #111827;
+  border-radius: 4px;
+}
+.experience-section .experience-section-container .experience-container-card .experience-card-image {
+  width: 50px;
+}
+.experience-section .experience-section-container .experience-container-card .experience-card-title {
+  font-size: 40px;
+}
+.experience-section .experience-section-container .experience-container-card .experience-card-rectangle {
+  width: 5px;
+}
+.experience-section .experience-section-container .experience-container-card .experience-card-text {
+  color: #667299;
+}
+.experience-section .experience-section-container .experience-card-clients {
+  width: 166px;
+}
+@media (min-width: 992px) {
+  .experience-section .experience-section-container .experience-card-clients {
+    right: -140px;
+    top: 35px;
+    z-index: 1;
+  }
+}
+.experience-section .experience-section-container .experience-card-clients .clients-card-image {
+  top: -22px;
+  right: -17px;
+}
+.experience-section .experience-section-container .experience-card-projects {
+  width: 209px;
+}
+@media (min-width: 992px) {
+  .experience-section .experience-section-container .experience-card-projects {
+    left: -22px;
+    top: -34px;
+    z-index: 0;
+  }
+}
+.experience-section .experience-section-container .experience-card-projects .projects-card-image {
+  top: -24px;
+  left: -20px;
+}
+.experience-section .experience-section-container .experience-card-awards {
+  width: 160px;
+}
+@media (min-width: 992px) {
+  .experience-section .experience-section-container .experience-card-awards {
+    top: -70px;
+    right: -104px;
+    z-index: 1;
+  }
+}
+.experience-section .experience-section-container .experience-card-awards .awards-card-image {
+  top: -10px;
+  right: -11px;
+}
+.experience-section .experience-section-container .experience-card-business {
+  width: 200px;
+}
+@media (min-width: 992px) {
+  .experience-section .experience-section-container .experience-card-business {
+    top: -133px;
+    left: 2px;
+    z-index: 0;
+  }
+}
+.experience-section .experience-section-container .experience-card-business .business-card-image {
+  bottom: -19px;
+  right: -20px;
+}
+@media (min-width: 992px) {
+  .experience-section .experience-section-details {
+    width: 40%;
+    padding: 10px 30px;
+  }
+}
+.experience-section .experience-section-details .experience-details-header {
+  color: #2947A9;
+}
+@media (min-width: 992px) {
+  .experience-section .experience-section-details .experience-details-header {
+    font-size: 46px !important;
+  }
+}
+.experience-section .experience-section-details .experience-details-content {
+  color: #525B7A;
+  font-size: 18px;
+  width: 320px;
+}
+@media (min-width: 992px) {
+  .experience-section .experience-section-details .experience-details-content {
+    font-size: 20px;
+    width: 310px;
+  }
+}
+.experience-section .experience-section-details .experience-details-button {
+  width: 150px;
+  background-color: #2947A9;
+  border-radius: 2px;
+}/*# sourceMappingURL=style.css.map */
